@@ -81,7 +81,7 @@ img {
 
       p {
         font-family: "Roboto", sans-serif;
-        color: $bright_color;
+        color: $medium_color;
       }
 
       .social-icon {
@@ -104,10 +104,22 @@ img {
           background: transparent;
 
           &:hover {
-            background: $bright_color;
+            background: $medium_color;
           }
         }
       }
     }
+  }
+}
+
+#about {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .wrapper {
+    width: 50%;
+    margin: 5% auto;
   }
 }

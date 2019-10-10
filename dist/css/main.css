@@ -8,6 +8,9 @@
   font-size: 1.3rem;
   margin-bottom: 2rem; }
 
+.txt-center {
+  text-align: center; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -67,7 +70,7 @@ img {
       line-height: 1.2; }
     #header-home .header-content p {
       font-family: "Roboto", sans-serif;
-      color: #9e2f46; }
+      color: #296b75; }
     #header-home .header-content .social-icon {
       display: flex;
       justify-content: space-around; }
@@ -83,4 +86,12 @@ img {
         color: #ffffff;
         background: transparent; }
         #header-home .header-content .social-icon a:hover {
-          background: #9e2f46; }
+          background: #296b75; }
+
+#about img {
+  width: 200px;
+  height: 200px; }
+
+#about .wrapper {
+  width: 50%;
+  margin: 5% auto; }
