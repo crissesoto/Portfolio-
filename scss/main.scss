@@ -208,7 +208,7 @@ footer {
 
         a {
           text-decoration: none;
-          color: darkgray;
+          color: $light_color;
           font-size: 1.2rem;
           border-bottom: 3px transparent solid;
           transition: border-color 0.5s;
@@ -225,6 +225,7 @@ footer {
 // Media Queries
 
 @media only screen and (max-width: 600px) {
+  // Main Nav - Media Querie
   #main-nav {
     padding: 0.3rem 0.6rem;
 
@@ -235,6 +236,8 @@ footer {
       font-size: 0.8rem;
     }
   }
+
+  // Header Media Queir
 
   #header-home {
     #main-nav {
@@ -257,6 +260,52 @@ footer {
       .social-icon a {
         padding: 0;
       }
+    }
+  }
+  // About Media Querie
+  #about {
+    p {
+      font-size: 1.2em;
+      font-weight: 300;
+    }
+
+    .design {
+      display: block;
+
+      img {
+        padding-right: 0;
+      }
+    }
+
+    .develop {
+      display: block;
+    }
+    img {
+      padding-left: 0%;
+    }
+  }
+
+  // Contact Media Queries
+
+  #contact {
+    .content {
+      padding: 3% 10%;
+    }
+    h2 {
+      font-size: 2.3rem;
+    }
+    h3 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-weight: 100;
+    }
+
+    .btn {
+      margin-bottom: 10px;
+    }
+    i {
+      display: none;
     }
   }
 }
