@@ -122,4 +122,61 @@ img {
     width: 50%;
     margin: 5% auto;
   }
+
+  .what h2 {
+    margin: auto;
+  }
+}
+
+// Media Queries
+
+@media only screen and (max-width: 600px) {
+  #main-nav {
+    padding: 0.3rem 0.6rem;
+
+    li {
+      padding: 0.2rem 0.4rem;
+    }
+    a {
+      font-size: 0.8rem;
+    }
+  }
+
+  #header-home {
+    #main-nav {
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+    .header-content {
+      h1 {
+        line-height: 1;
+        font-size: 2.5rem;
+        color: $medium_color;
+
+        span {
+          display: none;
+        }
+      }
+
+      .social-icon a {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1390px) {
+  #header-home {
+    #main-nav {
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+    .header-content {
+      h1 {
+        line-height: 2;
+        font-size: 6rem;
+        color: $medium_color;
+      }
+    }
+  }
 }

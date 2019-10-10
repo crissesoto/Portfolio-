@@ -13,3 +13,10 @@
 .txt-center {
   text-align: center;
 }
+
+.line {
+  width: 7%;
+  height: 6px;
+  border-bottom: 5px $light_color dotted;
+  margin: auto;
+}

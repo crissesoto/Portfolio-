@@ -11,6 +11,12 @@
 .txt-center {
   text-align: center; }
 
+.line {
+  width: 7%;
+  height: 6px;
+  border-bottom: 5px #add2c9 dotted;
+  margin: auto; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -95,3 +101,34 @@ img {
 #about .wrapper {
   width: 50%;
   margin: 5% auto; }
+
+#about .what h2 {
+  margin: auto; }
+
+@media only screen and (max-width: 600px) {
+  #main-nav {
+    padding: 0.3rem 0.6rem; }
+    #main-nav li {
+      padding: 0.2rem 0.4rem; }
+    #main-nav a {
+      font-size: 0.8rem; }
+  #header-home #main-nav {
+    margin-top: 50px;
+    margin-bottom: 100px; }
+  #header-home .header-content h1 {
+    line-height: 1;
+    font-size: 2.5rem;
+    color: #296b75; }
+    #header-home .header-content h1 span {
+      display: none; }
+  #header-home .header-content .social-icon a {
+    padding: 0; } }
+
+@media only screen and (min-width: 601px) and (max-width: 1390px) {
+  #header-home #main-nav {
+    margin-top: 50px;
+    margin-bottom: 100px; }
+  #header-home .header-content h1 {
+    line-height: 2;
+    font-size: 6rem;
+    color: #296b75; } }
