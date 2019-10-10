@@ -22,9 +22,10 @@
   padding: 0; }
 
 body {
-  background-color: #fafafa;
+  background-color: #fff1e9;
   font-family: "Merriweather", serif;
-  line-height: 1.6; }
+  line-height: 1.6;
+  color: #545454; }
 
 a {
   text-decoration: none; }
@@ -75,7 +76,7 @@ img {
       font-size: 6rem;
       line-height: 1.2; }
     #header-home .header-content p {
-      font-family: "Roboto", sans-serif;
+      font-family: "Montserrat", sans-serif;
       color: #296b75; }
     #header-home .header-content .social-icon {
       display: flex;
@@ -98,12 +99,32 @@ img {
   width: 200px;
   height: 200px; }
 
+#about .what h2 {
+  color: #2a6d77;
+  font-size: 2rem; }
+
+#about h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  color: #add2c9; }
+
 #about .wrapper {
   width: 50%;
   margin: 5% auto; }
+  #about .wrapper p {
+    font-size: 1.5em;
+    font-weight: 300; }
 
-#about .what h2 {
-  margin: auto; }
+#about .design {
+  display: flex; }
+  #about .design img {
+    padding-right: 10%; }
+
+#about .develop {
+  display: flex; }
+
+#about img {
+  padding-left: 10%; }
 
 @media only screen and (max-width: 600px) {
   #main-nav {

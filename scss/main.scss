@@ -12,6 +12,7 @@ body {
   background-color: $bg_color;
   font-family: "Merriweather", serif;
   line-height: 1.6;
+  color: $text_color;
 }
 
 a {
@@ -80,7 +81,7 @@ img {
       }
 
       p {
-        font-family: "Roboto", sans-serif;
+        font-family: "Montserrat", sans-serif;
         color: $medium_color;
       }
 
@@ -118,13 +119,39 @@ img {
     height: 200px;
   }
 
+  .what h2 {
+    color: $dark_color;
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    color: $light_color;
+  }
+
   .wrapper {
     width: 50%;
     margin: 5% auto;
+
+    p {
+      font-size: 1.5em;
+      font-weight: 300;
+    }
+  }
+  .design {
+    display: flex;
+
+    img {
+      padding-right: 10%;
+    }
   }
 
-  .what h2 {
-    margin: auto;
+  .develop {
+    display: flex;
+  }
+  img {
+    padding-left: 10%;
   }
 }
 
@@ -148,6 +175,8 @@ img {
       margin-bottom: 100px;
     }
     .header-content {
+      img {
+      }
       h1 {
         line-height: 1;
         font-size: 2.5rem;
@@ -167,6 +196,8 @@ img {
 
 @media only screen and (min-width: 601px) and (max-width: 1390px) {
   #header-home {
+    img {
+    }
     #main-nav {
       margin-top: 50px;
       margin-bottom: 100px;
