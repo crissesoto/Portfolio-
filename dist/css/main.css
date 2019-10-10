@@ -36,6 +36,15 @@ ul {
 img {
   width: 100%; }
 
+h2 {
+  color: #2a6d77;
+  font-size: 2rem; }
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  color: #add2c9; }
+
 /* Nav section */
 #main-nav {
   display: flex;
@@ -99,15 +108,6 @@ img {
   width: 200px;
   height: 200px; }
 
-#about .what h2 {
-  color: #2a6d77;
-  font-size: 2rem; }
-
-#about h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
-  color: #add2c9; }
-
 #about .wrapper {
   width: 50%;
   margin: 5% auto; }
@@ -125,6 +125,35 @@ img {
 
 #about img {
   padding-left: 10%; }
+
+#contact .content {
+  padding: 5% 20%; }
+
+#contact h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem; }
+
+#contact h3 {
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin-bottom: 1rem; }
+
+#contact p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: 1rem; }
+
+#contact .btn {
+  padding: 1rem 3rem;
+  background: #add2c9; }
+
+#contact i {
+  color: #2a6d77;
+  margin-right: 10px; }
+
+#contact a {
+  color: #2a6d77;
+  font-size: 1.5rem; }
 
 @media only screen and (max-width: 600px) {
   #main-nav {

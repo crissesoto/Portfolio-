@@ -26,6 +26,18 @@ ul {
 img {
   width: 100%;
 }
+
+h2 {
+  color: $dark_color;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  color: $light_color;
+}
+
 /* Nav section */
 #main-nav {
   display: flex;
@@ -119,17 +131,6 @@ img {
     height: 200px;
   }
 
-  .what h2 {
-    color: $dark_color;
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.3rem;
-    color: $light_color;
-  }
-
   .wrapper {
     width: 50%;
     margin: 5% auto;
@@ -152,6 +153,39 @@ img {
   }
   img {
     padding-left: 10%;
+  }
+}
+
+#contact {
+  .content {
+    padding: 5% 20%;
+  }
+  h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    padding: 1rem 3rem;
+    background: $light_color;
+  }
+  i {
+    color: $dark_color;
+    margin-right: 10px;
+  }
+  a {
+    color: $dark_color;
+    font-size: 1.5rem;
   }
 }
 
