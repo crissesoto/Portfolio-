@@ -20,6 +20,11 @@
 .section-title {
   margin: 20px auto; }
 
+#gallery .gallery-header {
+  height: 50vh; }
+  #gallery .gallery-header .section-title {
+    margin-top: 30px; }
+
 .items {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -117,6 +122,12 @@ h3 {
   background: url("../img/background2.jpg") no-repeat center right/cover;
   height: 50vh;
   border-bottom: 2px #add2c9 solid; }
+  #header-inner .section-title h2 {
+    font-family: "Parisienne", cursive;
+    color: #9e2f46;
+    font-size: 6rem;
+    line-height: 1.2;
+    margin-top: 8%; }
 
 #about img {
   width: 200px;

@@ -125,10 +125,21 @@ h3 {
       }
     }
   }
+  // nav on inner pages
   &-inner {
     background: $bg_image no-repeat center right/cover;
     height: 50vh;
     border-bottom: 2px $light_color solid;
+
+    .section-title {
+      h2 {
+        font-family: "Parisienne", cursive;
+        color: $bright_color;
+        font-size: 6rem;
+        line-height: 1.2;
+        margin-top: 8%;
+      }
+    }
   }
 }
 
