@@ -65,6 +65,8 @@
   margin: 0 auto;
   padding-top: 50px;
   background: #9e2f46; }
+  #timeline ul li h3 {
+    color: #296b75; }
 
 /* Boxes containing h1,h3 */
 #timeline ul li div {
@@ -86,7 +88,7 @@
 
 /* left side */
 #timeline ul li:nth-child(even) div {
-  left: -434px;
+  left: -465px;
   /* also left but negative value to bring it to the other side */
   transform: translateX(-200px); }
 
@@ -124,9 +126,9 @@
 /* left side arrow (even) */
 #timeline ul li:nth-child(even) div::before {
   right: -15px;
-  /* to move it to the left side of the div */
+  /* to move it to the right side of the div */
   border-width: 8px 0px 8px 16px;
-  border-color: transparent transparent transparent var(--thrid-color); }
+  border-color: transparent transparent transparent #add2c9; }
 
 /* Show Boxes */
 #timeline ul li.show div {
@@ -364,6 +366,18 @@ footer {
   #contact .btn {
     margin-bottom: 10px; }
   #contact i {
+    display: none; }
+  #timeline ul li {
+    margin-left: 20px; }
+  #timeline ul li div {
+    width: calc(100vw - 90px); }
+  #timeline ul li:nth-child(even) div {
+    left: 40px; }
+  #timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0px;
+    border-color: transparent var(--thrid-color) transparent transparent; }
+  #timeline div::before {
     display: none; } }
 
 @media only screen and (min-width: 601px) and (max-width: 1150px) {
@@ -377,4 +391,8 @@ footer {
   #about .design {
     display: block; }
   #about .develop {
-    display: block; } }
+    display: block; }
+  #timeline ul li div {
+    width: 250px; }
+  #timeline ul li:nth-child(even) div {
+    left: -375px; } }
