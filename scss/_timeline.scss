@@ -1,5 +1,4 @@
 #timeline ul {
-  background: var(--secondary-color);
   padding: 50px 0;
 }
 
@@ -10,7 +9,7 @@
   width: 6px; /* Creates the line with a width of 6px */
   margin: 0 auto;
   padding-top: 50px;
-  background: var(--accent-color);
+  background: $bright_color;
 }
 
 /* Boxes containing h1,h3 */
@@ -19,7 +18,7 @@
   bottom: 0;
   width: 400px;
   padding: 1rem;
-  background: var(--thrid-color);
+  background: $light_color;
   transition: all 0.5s ease-in-out; /* add animation later */
   visibility: hidden; /* we will make then visible with JS*/
   opacity: 0;
@@ -46,7 +45,7 @@
   width: 25px;
   height: 25px;
   border-radius: 100%;
-  background: var(--accent-color);
+  background: $medium-color;
   transform: translateX(
     -50%
   ); /* as much as we put it to the middle to get it in the middle of the li */
@@ -69,7 +68,7 @@
 #timeline ul li:nth-child(odd) div::before {
   left: -15px; /* to move it to the left side of the div */
   border-width: 8px 16px 8px 0;
-  border-color: transparent var(--thrid-color) transparent transparent;
+  border-color: transparent $light_color transparent transparent;
 }
 
 /* left side arrow (even) */
@@ -87,5 +86,5 @@
 }
 
 #timeline ul li.show:after {
-  background: var(--thrid-color);
+  background: $light_color;
 }
