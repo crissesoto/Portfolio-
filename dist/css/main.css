@@ -75,6 +75,7 @@ h3 {
 /* Header section */
 #header-home {
   background: url("../img/background2.jpg") no-repeat center right/cover;
+  border-bottom: 2px #add2c9 solid;
   height: 100vh; }
   #header-home .header-content {
     text-align: center;
@@ -107,14 +108,14 @@ h3 {
 #header-inner {
   background: url("../img/background2.jpg") no-repeat center right/cover;
   height: 50vh;
-  border-bottom: 1px #add2c9 solid; }
+  border-bottom: 2px #add2c9 solid; }
 
 #about img {
   width: 200px;
   height: 200px; }
 
 #about .wrapper {
-  width: 50%;
+  width: 60%;
   margin: 5% auto; }
   #about .wrapper p {
     font-size: 1.5em;
@@ -122,11 +123,15 @@ h3 {
 
 #about .design {
   display: grid;
-  grid-template-areas: "img content content"; }
+  grid-template-areas: "img content content";
+  grid-gap: 10px;
+  text-align: left; }
 
 #about .develop {
   display: grid;
-  grid-template-areas: "img content content"; }
+  grid-template-areas: "img content content";
+  grid-gap: 10px;
+  text-align: left; }
 
 #about img {
   padding-left: 10%; }

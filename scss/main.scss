@@ -79,6 +79,7 @@ h3 {
 #header {
   &-home {
     background: $bg_image no-repeat center right/cover;
+    border-bottom: 2px $light_color solid;
     height: 100vh;
 
     .header-content {
@@ -126,7 +127,7 @@ h3 {
   &-inner {
     background: $bg_image no-repeat center right/cover;
     height: 50vh;
-    border-bottom: 1px $light_color solid;
+    border-bottom: 2px $light_color solid;
   }
 }
 
@@ -137,7 +138,7 @@ h3 {
   }
 
   .wrapper {
-    width: 50%;
+    width: 60%;
     margin: 5% auto;
 
     p {
@@ -148,11 +149,15 @@ h3 {
   .design {
     display: grid;
     grid-template-areas: "img content content";
+    grid-gap: 10px;
+    text-align: left;
   }
 
   .develop {
     display: grid;
     grid-template-areas: "img content content";
+    grid-gap: 10px;
+    text-align: left;
   }
   img {
     padding-left: 10%;
