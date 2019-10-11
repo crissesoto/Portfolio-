@@ -104,6 +104,11 @@ h3 {
         #header-home .header-content .social-icon a:hover {
           background: #296b75; }
 
+#header-inner {
+  background: url("../img/background2.jpg") no-repeat center right/cover;
+  height: 50vh;
+  border-bottom: 1px #add2c9 solid; }
+
 #about img {
   width: 200px;
   height: 200px; }
@@ -116,12 +121,12 @@ h3 {
     font-weight: 300; }
 
 #about .design {
-  display: flex; }
-  #about .design img {
-    padding-right: 10%; }
+  display: grid;
+  grid-template-areas: "img content content"; }
 
 #about .develop {
-  display: flex; }
+  display: grid;
+  grid-template-areas: "img content content"; }
 
 #about img {
   padding-left: 10%; }
@@ -161,7 +166,7 @@ footer {
   footer #footer {
     padding: 1%; }
     footer #footer p {
-      color: #545454; }
+      color: #add2c9; }
     footer #footer ul {
       display: flex;
       justify-content: center;
@@ -220,11 +225,15 @@ footer {
   #contact i {
     display: none; } }
 
-@media only screen and (min-width: 601px) and (max-width: 1390px) {
+@media only screen and (min-width: 601px) and (max-width: 1150px) {
   #header-home #main-nav {
     margin-top: 50px;
     margin-bottom: 100px; }
   #header-home .header-content h1 {
     line-height: 2;
     font-size: 6rem;
-    color: #296b75; } }
+    color: #296b75; }
+  #about .design {
+    display: block; }
+  #about .develop {
+    display: block; } }
