@@ -6,7 +6,7 @@
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 1.4rem; }
 
 .txt-center {
   text-align: center; }
@@ -16,6 +16,9 @@
   height: 6px;
   border-bottom: 5px #add2c9 dotted;
   margin: auto; }
+
+.section-title {
+  margin: 20px auto; }
 
 * {
   margin: 0;

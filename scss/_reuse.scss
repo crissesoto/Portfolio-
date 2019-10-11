@@ -7,7 +7,7 @@
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.4rem;
 }
 
 .txt-center {
@@ -19,4 +19,8 @@
   height: 6px;
   border-bottom: 5px $light_color dotted;
   margin: auto;
+}
+
+.section-title {
+  margin: 20px auto;
 }
