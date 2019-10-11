@@ -126,12 +126,20 @@ h3 {
   grid-template-areas: "img content content";
   grid-gap: 10px;
   text-align: left; }
+  #about .design img {
+    grid-area: img; }
+  #about .design .content {
+    grid-area: content; }
 
 #about .develop {
   display: grid;
-  grid-template-areas: "img content content";
+  grid-template-areas: "content content img";
   grid-gap: 10px;
   text-align: left; }
+  #about .develop img {
+    grid-area: img; }
+  #about .develop .content {
+    grid-area: content; }
 
 #about img {
   padding-left: 10%; }

@@ -151,13 +151,26 @@ h3 {
     grid-template-areas: "img content content";
     grid-gap: 10px;
     text-align: left;
+    img {
+      grid-area: img;
+    }
+    .content {
+      grid-area: content;
+    }
   }
 
   .develop {
     display: grid;
-    grid-template-areas: "img content content";
+    grid-template-areas: "content content img";
     grid-gap: 10px;
     text-align: left;
+
+    img {
+      grid-area: img;
+    }
+    .content {
+      grid-area: content;
+    }
   }
   img {
     padding-left: 10%;
