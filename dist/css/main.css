@@ -167,7 +167,7 @@ h2 {
 h3 {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
-  color: #add2c9; }
+  color: #9e2f46; }
 
 /* Nav section */
 #main-nav {
@@ -180,7 +180,7 @@ h3 {
     padding: 1rem 1.5rem; }
   #main-nav a {
     text-decoration: none;
-    color: #296b75;
+    color: #545454;
     font-weight: 800;
     font-size: 1.2rem;
     border-bottom: 3px transparent solid;
